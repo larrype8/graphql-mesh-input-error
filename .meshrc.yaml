@@ -1,0 +1,6 @@
+sources:
+  - name: SearchAPI
+    handler:
+      openapi:
+        source: ./catfacts.json
+        endpoint: https://catfact.ninja
